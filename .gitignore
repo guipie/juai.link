@@ -1,0 +1,36 @@
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
+
+# Other files and folders
+.settings/
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
+
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
+/api/.vs
+/api/packages
+/api/Admin.NET.Web.Entry/wwwroot/Upload
+/api/Admin.NET.Web.Entry/wwwroot/Avatar
+/api/Admin.NET.Web.Entry/wwwroot/Signature
+/api/Admin.NET.Web.Core/Admin.NET.Web.Core.csproj.user
+/api/Admin.NET.Web.Entry/Admin.NET.Web.Entry.csproj.user
+/api/Admin.NET.Web.Entry/Properties/PublishProfiles
+/api/Admin.NET.Web.Entry/publish
+/api/Admin.NET.Web.Entry/logs
+/api/Admin.NET.Web.Entry/*.db
+
+# folders
+dist/
+node_modules/
+/admin/package-lock.json
+/app/package-lock.json
+.DS_Store
